@@ -1,0 +1,63 @@
+{
+  "spacecrafts": [
+    {
+      "id": "5f1e",
+      "name": "The Best",
+      "capacity": 10000,
+      "description": "Simply the best",
+      "image": "https://media.istockphoto.com/id/1452870348/vector/rocket-ship-icon-in-flat-style-spacecraft-takeoff-on-space-background-start-up-illustration.jpg?s=612x612&w=0&k=20&c=Ik4wg3D1NmtuebK88Bgb3CKwY7xx5SQ4RcZWKl38ydw=",
+      "status": "Operational",
+      "currentPlanet": 3
+    }
+  ],
+  "planets": [
+    {
+      "id": "1",
+      "name": "Mercury",
+      "image": "https://science.nasa.gov/wp-content/uploads/2023/11/mercury-messenger-globe-pia15162.jpg",
+      "spacecraft": []
+    },
+    {
+      "id": "2",
+      "name": "Venus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/250px-Venus_globe.jpg",
+      "spacecraft": []
+    },
+    {
+      "id": "3",
+      "name": "Earth",
+      "image": "https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?cs=srgb&dl=pexels-pixabay-87651.jpg&fm=jpg",
+      "spacecraft": []
+    },
+    {
+      "id": "4",
+      "name": "Mars",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+      "spacecraft": []
+    },
+    {
+      "id": "5",
+      "name": "Jupiter",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png",
+      "spacecraft": []
+    },
+    {
+      "id": "6",
+      "name": "Saturn",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
+      "spacecraft": []
+    },
+    {
+      "id": "7",
+      "name": "Uranus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Uranus_Voyager2_color_calibrated.png/800px-Uranus_Voyager2_color_calibrated.png",
+      "spacecraft": []
+    },
+    {
+      "id": "8",
+      "name": "Neptune",
+      "image": "https://cdn.mos.cms.futurecdn.net/PezBzd9Fehsq9XWgWMauVV.jpg",
+      "spacecraft": []
+    }
+  ]
+}

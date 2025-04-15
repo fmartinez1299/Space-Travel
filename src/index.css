@@ -1,0 +1,185 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0f0f0f; /* Galaxy black background */
+  background-image: url('https://www.w3schools.com/w3images/space.jpg'); /* Space-themed image */
+  background-size: cover; /* Makes sure the image covers the entire page */
+  background-position: center; /* Centers the background image */
+  background-attachment: fixed; /* Makes the background fixed while scrolling */
+  color: #D3D3D3; /* Light grey for text to contrast well with dark background */
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+/* Main Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background for content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Dark shadow for depth */
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Header Styles - Helvetica font */
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff; /* White text for the main header */
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Garamond', serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #D3D3D3; /* Light grey for subheaders */
+}
+
+/* Paragraph Text Styling */
+p {
+  color: #D3D3D3; /* Light grey for paragraph text */
+  font-size: 1rem;
+  font-family: 'Helvetica', sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Navigation Cards */
+.page-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Light background with transparency */
+  border: 1px solid #555; /* Darker border for contrast */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Hover Effects for Navigation Cards */
+.page-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Styling - Garamond font */
+.button {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: 'Garamond', serif;
+}
+
+/* Hover Effects for Buttons */
+.button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+/* Button Container for aligning buttons */
+.button-container {
+  text-align: center;
+}
+
+/* Styling for the Link inside the button */
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Styling for "Home" button */
+.button-home {
+  background-color: #38bdf8;
+}
+
+.button-home:hover {
+  background-color: #0ea5e9;
+}
+
+/* Flexbox layout for cards */
+.page-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.planets-page {
+  padding: 2rem;
+  color: #dcdcdc; /* Galaxy grey */
+}
+
+.planets-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.planet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.planet-row {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.planet-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  margin-right: 1.5rem;
+  object-fit: cover;
+}
+
+.planet-info h3 {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.planet-button {
+  font-family: Garamond, serif;
+  padding: 8px 16px;
+  margin: 1rem 0;
+  background-color: #3e3e6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.planet-button:hover {
+  background-color: #5c5cb3;
+}
